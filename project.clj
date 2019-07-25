@@ -19,8 +19,7 @@
   :description "GAN Flans with MXNet"
   :plugins [[lein-cljfmt "0.5.7"]]
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [org.apache.mxnet/mxnet-full_2.11-linux-x86_64-gpu "1.5.0-SNAPSHOT"]
-                 [org.apache.mxnet.contrib.clojure/clojure-mxnet "1.5.0-SNAPSHOT"]
+                 [org.apache.mxnet.contrib.clojure/clojure-mxnet "1.6.0-SNAPSHOT"]
                  [nu.pattern/opencv "2.4.9-7"]
                  [net.mikera/imagez "0.12.0"]
                  [thinktopic/think.image "0.4.16"]]
