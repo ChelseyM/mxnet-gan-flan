@@ -46,7 +46,7 @@
 (def output-path "results/")
 (def model-path "model/")
 (def batch-size 5)
-(def num-epoch 10)
+(def num-epoch 100)
 
 (io/make-parents (str output-path "gout"))
 (io/make-parents (str model-path "test"))
@@ -64,7 +64,7 @@
            (sort)
            (last)))
 
-(def flan-iter (mx-io/image-record-iter {:path-imgrec "flan-128.rec"
+(def flan-iter (mx-io/image-record-iter {:path-imgrec "prada.rec"
                                          :data-shape [3 128 128]
                                          :batch-size batch-size
                                          :shuffle true}))
