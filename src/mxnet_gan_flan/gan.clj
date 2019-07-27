@@ -45,7 +45,7 @@
 (def data-dir "data/")
 (def output-path "results/")
 (def model-path "model/")
-(def batch-size 5)
+(def batch-size 100)
 (def num-epoch 100)
 
 (io/make-parents (str output-path "gout"))
